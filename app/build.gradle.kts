@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
     alias(libs.plugins.hiltAndroid)
+    kotlin("kapt")
 }
 
 
@@ -46,6 +47,7 @@ android {
     }
     packaging {
         resources {
+            excludes += "META-INF/gradle/incremental.annotation.processors"
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
@@ -66,7 +68,7 @@ dependencies {
     implementation(libs.gson)
     implementation(libs.webrtc)
     implementation(libs.hilt.android)
-    implementation(libs.hilt.compiler)
+    kapt(libs.hilt.compiler)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
