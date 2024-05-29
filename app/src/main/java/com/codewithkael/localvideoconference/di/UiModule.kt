@@ -1,4 +1,4 @@
-package com.codewithkael.localvideoconference.presentation.di
+package com.codewithkael.localvideoconference.di
 
 import android.content.Context
 import dagger.Module

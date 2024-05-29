@@ -1,4 +1,4 @@
-package com.codewithkael.localvideoconference.data.di
+package com.codewithkael.localvideoconference.di
 
 import com.google.gson.Gson
 import dagger.Module

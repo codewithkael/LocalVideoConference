@@ -1,4 +1,4 @@
-package com.codewithkael.localvideoconference.domain.model.remote
+package com.codewithkael.localvideoconference.model.remote
 
 import org.java_websocket.WebSocket
 

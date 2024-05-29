@@ -1,4 +1,4 @@
-package com.codewithkael.localvideoconference.presentation.ui.theme
+package com.codewithkael.localvideoconference.ui.theme
 
 import android.app.Activity
 import android.os.Build

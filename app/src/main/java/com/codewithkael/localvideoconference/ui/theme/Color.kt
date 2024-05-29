@@ -1,4 +1,4 @@
-package com.codewithkael.localvideoconference.presentation.ui.theme
+package com.codewithkael.localvideoconference.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

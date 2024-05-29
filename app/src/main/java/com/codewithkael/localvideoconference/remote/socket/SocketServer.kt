@@ -1,8 +1,8 @@
-package com.codewithkael.localvideoconference.data.remote.socket
+package com.codewithkael.localvideoconference.remote.socket
 
-import com.codewithkael.localvideoconference.domain.model.remote.DataModel
-import com.codewithkael.localvideoconference.domain.model.remote.DataModelType
-import com.codewithkael.localvideoconference.domain.model.remote.SocketClientModel
+import com.codewithkael.localvideoconference.model.remote.DataModel
+import com.codewithkael.localvideoconference.model.remote.DataModelType
+import com.codewithkael.localvideoconference.model.remote.SocketClientModel
 import com.google.gson.Gson
 import org.java_websocket.WebSocket
 import org.java_websocket.handshake.ClientHandshake
